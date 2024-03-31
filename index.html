@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kshitij</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body id="body" class="root">
+
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Kshitij</a>
+            <ul class="navbar">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#pj1" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <div class="coll">
+                        <button id="theme1" class="theme1"><i class='bx bxs-leaf'></i>
+                        </button>
+                        <div id="theme">
+                            <button onclick="col2()" class="theme" style="background-color: #27AE60;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                            <button onclick="col0()" class="theme" style="background-color: #647bff;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                            <button onclick="col()" class="theme" style="background-color: #FF4A57;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                            <button onclick="col3()" class="theme" style="background-color: #272829; color: #FFF6E0;"><i
+                                    class='bx bxs-adjust-alt'></i></button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav-menu-icon" id="nav-menu-icon">
+        <ul id="navbar">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#pj1" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="nav-icon">
+        <div class="social" id="icon">
+            <a href="#home"><i class='bx bxs-home'></i></a>
+            <a href="#about"><i class='bx bxs-user-circle'></i></a>
+            <a href="#pj1"><i class='bx bx-code-alt'></i></a>
+            <a href="#contact"><i class='bx bxs-contact'></i></a>
+        </div>
+    </section>
+
+    <!-- Home -->
+    <section class="home container" id="home">
+        <div class="home-content">
+            <div class="home-img">
+                <img src="./images/Avatar DP.png" alt="">
+            </div>
+            <div class="home-text">
+                <h3>─ Hello ─</h3>
+                <h2>I'm <span class="color">Kshitij</span></h2>
+                <p>I have a passion for building <span class="color">Web Application</span>, <span class="color">UI/UX
+                        Design</span> & <span class="color">Web
+                        Sites</span> with great user experience.
+                    <br>Here's a bit more <span class="color">about me.</span>
+                </p>
+                <div class="social">
+                    <a href="https://github.com/Kshitij1809" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/kshitij-deshmukh-0202aa215/" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about container" id="about">
+        <h2 class="heading">ABOUT</h2>
+        <div class="about-content">
+            <div class="about-data">
+                <span>About Me</span>
+                <h2>Web Developer & <br>
+                    Web Designer
+                </h2>
+                <a href="cv.pdf" class="btn" download="">
+                    Dowload CV
+                    <i class='bx bxs-cloud-download'></i>
+                </a>
+            </div>
+            <div class="about-text">
+                <p>Hello! I am Kshitij Deshmukh. <br>Web Apps Developer and Web Designer.</p>
+                <p>I have a Graduation in Computer Science & Engineering and currently working as a Freelancer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services container" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bxl-codepen'></i>
+                <h2>Web Development</h2>
+                <p>Crafting elegant, responsive web experiences. Skilled in HTML5, CSS3, JavaScript, React, and Node.js.
+                </p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-color'></i>
+                <h2>UI/UX Design</h2>
+                <p>Creative UI/UX designer seeking opportunity to apply skills and passion for user-centered
+                    design.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-shape-polygon'></i>
+                <h2>Web Apps</h2>
+                <p>It brings ideas to life through code, crafting interactive and user-friendly
+                    experiences for the web.</p>
+            </div>
+    </section>
+
+    <!-- Porject -->
+    <section class="porject container" id="pj1">
+        <h2 class="heading">Porjects</h2>
+        <div class="porject-content">
+            <div class="porject-box">
+                <img src="./images/ss (1).png" alt="">
+                <div class="project-overlay">
+                    <h2>UsabilityHub</h2>
+                    <a href="https://kshitij1809.github.io/UsabilityHub/">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="porject-box">
+                <img src="./images/ss (3).png" alt="">
+                <div class="project-overlay">
+                    <h2>Exam360</h2>
+                    <a href="https://kshitij1809.github.io/exam360/">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="porject-box">
+                <img src="./images/ss (2).png" alt="">
+                <div class="project-overlay">
+                    <h2>Netflix</h2>
+                    <a href="https://kshitij1809.github.io/ott/">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="porject-box">
+                <img src="./images/ss (4).png" alt="">
+                <div class="project-overlay">
+                    <h2>Amazon</h2>
+                    <a href="https://kshitij1809.github.io/com/">
+                        <i class='bx bx-link-alt'></i>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact container" id="contact">
+        <h2 class="heading">Contact</h2>
+        <div class="container1" style="color: white;">
+            <form action="https://formsubmit.co/kshitijdeshmukh18@gmail.com" method="POST">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" name="name" id="name" onkeyup="validateName()">
+                    <span id="name-error"></span>
+                </div>
+
+                <div class="input-group">
+                    <input type="tel" placeholder="Phone No." name="phone" id="phone" onkeyup="validatePhone()">
+                    <span id="phone-error"></span>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" placeholder="Email address..." name="email" id="email"
+                        onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                </div>
+
+                <div class="input-group">
+                    <textarea rows="5" placeholder="Enter your message" name="message" id="message"
+                        onkeyup="validateMessage()"></textarea>
+                    <span id="message-error"></span>
+                </div>
+
+                <button onclick="return validateForm()" type="submit">Send</button>
+                <span id="submit-error"></span>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="footer container" id="footer">
+        <div class="social">
+            <a href="https://github.com/Kshitij1809" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/kshitij-deshmukh-0202aa215/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <p>&#169; Developed by <span class="color-1"><i>kshitijdeshmukh18</i></span></p>
+    </section>
+
+    <section>
+        <div class="nav1">
+            <ul class="navbar1">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#pj1" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/14b7866781.js" crossorigin="anonymous"></script>
+    <script src="./js/contact.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

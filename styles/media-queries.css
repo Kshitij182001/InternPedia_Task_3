@@ -1,0 +1,169 @@
+@media screen and (max-width: 1240px) {
+    #icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 981px) {
+    .nav {
+        padding: 20px 15px;
+    }
+
+    .about-content {
+        width: 100vw;
+        padding: 0 20px;
+        gap: 1rem;
+    }
+
+    .services-content {
+        flex-wrap: wrap;
+    }
+
+    .services-box {
+        max-width: 300px;
+    }
+
+    .porject-content {
+        width: 100vw;
+        padding: 0 10px;
+        gap: 1rem;
+    }
+
+    .porject-box {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .porject-content {
+        grid-template-columns: auto;
+        width: 100vw;
+        padding: 0 10px;
+        gap: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .porject-box {
+        max-height: 280px;
+        max-width: 460px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .heading {
+        font-size: 4rem;
+    }
+
+    .home {
+        min-height: fit-content;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text,
+    .about-data {
+        width: 80%;
+        text-align: center;
+    }
+
+    .btn {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    section {
+        padding-top: 3rem;
+    }
+
+    .coll {
+        position: fixed;
+        bottom: 60px;
+        right: 5px;
+    }
+
+    /* media */
+    #theme{
+        position: fixed;
+        bottom: 110px;
+        right: 5px;
+        display: none;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .nav1, .navbar1 {
+        display: flex;
+    } 
+
+    .navbar li a {
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+
+    .nav-menu-icon {
+        /* display: block; */
+        width: 90vw;
+        margin-inline: auto;
+        transition: 0.4s;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    #home {
+        padding-top: 5rem;
+    }
+
+    .home-img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .home-content {
+        justify-content: start;
+    }
+
+    .nav-icon {
+        padding: 0;
+    }
+
+    .porject-box {
+        height: 200px;
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .home-text h2 {
+        font-size: 3rem;
+    }
+
+    .home-text p {
+        font-size: 0.9rem;
+        padding-inline: 20px;
+    }
+
+    .porject-box {
+        height: 180px;
+        width: 300px;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+}
